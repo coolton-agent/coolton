@@ -173,7 +173,7 @@ def build_app_home_view(
     else:
         blocks.append({
             "type": "section",
-            "text": {"type": "mrkdwn", "text": "🔴 *Slack MCP Server is disconnected.*"},
+            "text": {"type": "mrkdwn", "text": "🔴 *Slack MCP Server is disconnected.*\nLearn how to enable it in the setup docs."},
         })
 
     return {"type": "home", "blocks": blocks}
